@@ -1,0 +1,246 @@
+*{
+    font-family: 'IBM Plex Sans',ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
+    src: url(Fonts/IBMPlexSans-Light.ttf);
+    src: local(Fonts);
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-body{
+    width: 100%;
+}
+.header{
+    border: 1px solid gainsboro;
+    width: 100%;
+    height: 50px;
+
+}
+.logo{
+    width: 140px;
+    height: 50px;
+    margin-left: 5px ;
+    float: left;
+    
+
+}
+.menu{
+    width: 600px;
+    height: 50px;
+    margin-left: 10px ;
+float: left;
+}
+.login{
+    width: 120px;
+    height: 50px;
+    float: right;
+}
+#logoicon{
+    margin-left: 10px;
+    margin-top: 15px;
+} 
+.main-menu{
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 0;
+    list-style-type: none;
+}
+.top-menu{
+    
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    
+}
+li :hover{
+    color: lightgrey;
+    
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+#srchicn{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#usricn{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    
+}
+
+.logoibm :hover{
+    opacity: 0.5;
+}
+.content{
+ width: 100%;
+ height: 2680px;
+}
+footer{
+    width: 1160px;
+    margin-left: 100px;
+    border-top: 1px solid gainsboro;
+}
+.footer-menu{
+    display: inline-flex;
+    text-align: center;
+}
+.first{
+    display: flex;
+    
+    height: 550px;
+}
+.first-left{
+    
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 25px;
+    
+}
+
+#front-text{
+    font-size: 48px;
+    font-weight: 300;
+
+    }
+    #frnt-desc{
+        margin-top: 155px;
+        font-size: 20px;
+        font-family: inherit;
+
+        }
+    .newbutton{
+        background: #0062ff;
+        border: 0;
+        width: 220px;
+        height: 50px;
+        text-align: left;
+        padding-left: 20px;
+        color: #fff;
+        font-size: 16px;
+        font-family: inherit;        
+    }
+    #arrow{
+       float: right;
+       margin-right: 5px;
+    }
+    .middle-black{
+        background: #221e1e;
+        width: 100%;
+        height: 130px;
+        color: #fff;
+        padding-left: 30px;
+        padding-top: 40px;
+        
+        font-size: 28px;
+        display: flex;
+    }
+    #arrow2{
+        float: right;
+        margin-right: 5px;
+    }
+    .rectbutton{
+        background: #0062ff;
+        border: 0;
+        width: 300px;
+        height: 50px;
+        text-align: left;
+        padding-left: 16px;
+        color: #fff;
+        font-size: 16px;
+        font-family: inherit; 
+        margin-left: 370px;
+    }
+
+.insideibm{
+    width: 322px;
+    height: 440px;
+    float: left;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.ibmprocess{
+    background: #d9dfde8a;
+    width: 329px;
+    height: 460px;
+    float: left;
+}
+.enterprise{
+    background: #d9dfde8a;
+    width: 329px;
+    height: 460px;
+    float: left;
+}
+.simplify{
+    background: #d9dfde8a;
+    width: 329px;
+    height: 460px;
+    float: left;
+}
+.bottom-desc :hover{
+    color: #8a8484;
+}
+.bottom-desc{
+    padding-left: 15px;
+}
+.blue-link{
+    color: #0062ff;
+    text-decoration: none;
+}
+.explore-product{
+    background: #d9dfde8a;
+    width: 322px;
+    height: 440px;
+    float: left;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.bottom-list{
+    line-height: 2;
+    color: #0062ff;
+    text-decoration: solid;
+    
+}
+.bottom-list :hover{
+    color: rgb(0, 0, 0);
+}
+.last-div{
+    float: left;
+    width: 100%;
+    height: 400px;
+}
+.last-in1{
+    line-height: 2.2;
+    padding-left: 40px;
+    float: left;
+}
+.last-in2{
+    line-height: 2.2;
+    margin-left: 100px;
+    float: left;
+}
+.last-in3{
+    line-height: 2.2;
+    margin-left: 100px;
+    float: left;
+}
+.last-in4{
+    line-height: 2.2;
+    margin-left: 100px;
+    float: left;
+}
+.before-footer{
+    list-style-type: none;
+    text-decoration: none;
+    color: #0062ff;
+}
+.footer-menu{
+    list-style-type: none;
+}
+h4{
+    margin-left: 38px;
+  }
